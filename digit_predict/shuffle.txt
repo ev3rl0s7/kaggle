@@ -1,0 +1,20 @@
+https://www.kaggle.com/fominss/digit-recognizer/average-digit/editnb
+
+PANDAS
+dataframe.as_matrix() - преобразует датафрейм в нумпай массив, возвращает тип ndarray
+
+NUMPY
+numpy.ndarray.shape  - возращает размерности массива
+numpy.unique() - находит уникальные элементы в массиве
+numpy.empty() - возращает массив заданной размерности без инициализированных значений
+numpy.ndarray.flatten() - возращает массив сжатый в одно измерение
+numpy.vstack() - собирает два массива в один
+numpy.ndarray.reshape() - модифицирует размерность массива без изменений данных внутри
+numpy.argmin() - возвращает минимальное значение в массиве , его строке или столбце
+
+SKLEARN
+
+MATPLOTLIB
+matplotlib.pyplot.imshow() пробразует массив в изображение , или выводит переданное в PIL формате img
+matplotlib.pyplot.show() отображает изображение на экран
+matplotlib.pyplot.subplot(*args, **kwargs) разбивает figure на несколько plot
